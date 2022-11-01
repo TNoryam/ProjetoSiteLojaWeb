@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/navbar/logo.png">
+        <title>Carrinho</title>
+    </head>
+    <body class="bodycad">
+    <header>
+        <nav class="navmenu">
+            <ul class="ulmenu">
+                <li class="limenu">
+                    <a id="logo" href="index.html"><img class="logo" alt="Página Inicial" src="images/navbar/logo.png"></a>
+                </li>
+                <li class="limenu">
+                    <input class="searchmenu searchbar" type="search" placeholder="buscar produtos no site">
+                    <button class="searchmenu searchbutton" type="submit" value="enviar">enviar</button>
+                </li>
+                <li class="limenu">
+                    <a title="Meu carrinho" class="navicons" href="cart.html"><img class="icons" alt="Meu Carrinho" src="images/navbar/marketkart.png"></a>
+                </li>
+                <li class="limenu">
+                    <a title="Mensagens" class="navicons"  href="https://api.whatsapp.com/send?phone=5521920013641"><img class="icons" alt="Mensagens" src="images/navbar/chat.png"></a>
+                </li>
+                <li class="limenu">
+                    <a title="Favoritos" class="navicons" href="#Favoritos"><img class="icons" alt="Favoritos" src="images/navbar/fav.png"></a>
+                </li>
+                <li class="limenu">
+                    <a class="login" href="login.html">Login</a>
+                </li>
+                <li class="limenu">
+                    <a class= "" href="cad.html">Cadastrar</a>
+                </li>
+                <li class="limenu">
+                    <a class= "" href="about.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <!--TABELA DE CARRINHO-->
+
+
+    <table class="tbcart">
+
+        <!--ABA DE CABEÇALHO-->
+
+        <tr class="trtitle">
+            <th class="tbheader">Produto</th>
+            <th class="tbheader">Descrição</th>
+            <th class="tbheader">Qunatidade</th>
+            <th class="tbheader tbnum">Valor</th>
+            <th class="tbheader tbnum">Subtotal</th>
+        </tr>
+
+        <!--ABA DE CABEÇALHO-->
+
+
+        <!--ABA DE PRODUTOS-->
+
+        <tr>
+            <td class="tdimg">
+                <img alt="Chaveiro de Polaroid" src="images/produtos/chaveiropolaroid.jpg" >
+            </td>
+            <td class="tddesc">
+                <p>Chaveiro de polaroids</p>
+                <p>chaveiro com 6 fotos polaroids de sua escolha</p>
+                <p>Papel fotográfico 180g</p>
+            </td>
+            <td class="tdqtd">
+                <p>5</p>
+            </td>
+            <td class="tdval">
+                <p>R$12,00</p>
+            </td>
+            <td class="tdsubt">
+                <p>R$12,00</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdimg">
+                <img alt="Chaveiro de Polaroid" src="images/produtos/chaveiropolaroid.jpg" >
+            </td>
+            <td class="tddesc">
+                <p>Chaveiro de polaroids</p>
+                <p>chaveiro com 6 fotos polaroids de sua escolha</p>
+                <p>Papel fotográfico 180g</p>
+            </td>
+            <td class="tdqtd">
+                <p>5</p>
+            </td>
+            <td class="tdval">
+                <p>R$12,00</p>
+            </td>
+            <td class="tdsubt">
+                <p>R$12,00</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdimg">
+                <img alt="Chaveiro de Polaroid" src="images/produtos/chaveiropolaroid.jpg" >
+            </td>
+            <td class="tddesc">
+                <p>Chaveiro de polaroids</p>
+                <p>chaveiro com 6 fotos polaroids de sua escolha</p>
+                <p>Papel fotográfico 180g</p>
+            </td>
+            <td class="tdqtd">
+                <p>5</p>
+            </td>
+            <td class="tdval">
+                <p>R$12,00</p>
+            </td>
+            <td class="tdsubt">
+                <p>R$12,00</p>
+            </td>
+        </tr>
+
+        <!--ABA DE PRODUTOS-->
+        
+        <tr class="trfrete">
+            <td colspan="3"></td>
+            <td class="frete">
+                <label for="tpfrete">
+                Selecione o tipo de entrega:
+                </label>
+            </td>
+            <td class="listafrete">
+                <select class="descfrete" id="tpfrete" name="frete">
+                    <option value="RtdLj">Retirada na loja</option>
+                    <option value="EstNil">Estação de trem Nilópolis</option>
+                    <option value="EstNvIg">Estação de trem Nova Iguaçú</option>
+                    <option value="EstPav">Estação de metrô Pavuna</option>
+                    <option value="EstMesq">Estação de trem Mesquita</option>
+                    <option value="EstJusc">Estação de trem Juscelino</option>
+                </select>
+            </td>
+        </tr>
+
+        <!--ABA DE TOTAL-->
+        
+        <tr>
+            <td class="tdnone" colspan="3"></td>
+            <th class="tbheader" colspan="2">
+                <p>Total</p>
+            </th>
+        </tr>
+        <tr>
+            <td class="tdnone" colspan="3"></td>
+            <td>
+                <p>Total de produtos:</p>
+            </td>
+            <td class="tdtot">
+                <p>R$240</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdnone" colspan="3"></td>
+            <td>
+                <p>Entrega:</p>
+            </td>
+            <td class="tdtot">
+                <p>R$40</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdnone" colspan="3"></td>
+            <td>
+                <p>Total:</p>
+            </td>
+            <td class="tdtot">
+                <p>R$280</p>
+            </td>
+        </tr>
+
+        <!--ABA DE TOTAL-->
+        
+    </table>
+
+
+            <!--TABELA DE CARRINHO-->
+
+
+            <footer class="footer">
+                <table class="tbfooter">
+                    <tr>
+                        <td class="bordertd">
+                            <div class="divfoot">
+                                <p class="titlerod">Nossos Contatos!</p>
+                                <ul class="ulcont">
+                                    <li class="licont">
+                                    <img class="imgrod" src="images/rodape/whats.png" alt="Símbolo WhatsApp">
+                                    <a class="whats" href="https://api.whatsapp.com/send?phone=5521920013641" target="_blank">
+                                        <p>(21)92001-3641</p>
+                                    </a>
+                                    </li>
+                                    <li class="licont">
+                                        <img class="imgrod" src="images/rodape/fixo.png" alt="Símbolo telefone fixo"><p>(21)2791-3262</p>
+                                    </li>
+                                    <li class="licont">
+                                        <img class="imgrod" src="images/rodape/email.png" alt="Símbolo E-mail" ><p>noryamart02@gmail.com</p>
+                                    </li>
+                                    <li class="licont">
+                                        <img class="imgrod" src="images/rodape/insta.png" alt="Símbolo Instagram" >
+                                        <a href="https://www.instagram.com/noryamsart/" target="_blank"><p>@noryamsart</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="divfoot">
+                                <p class="titlerod">Formas de Pagamento</p>
+                                <ul class="ulcont">
+                                    <li class="licont">
+                                        <img class="imgrod" src="images/rodape/pix.png" alt="Símbolo Pix"><p>Pix</p>
+                                    </li>
+                                    <li class="licont">
+                                        <img class="imgrod" src="images/rodape/deposito.png" alt="Símbolo telefone fixo"><p>Depósito bancário</p>
+                                    </li>
+                                    <li class="licont">
+                                        <ul>
+                                            <li class="licont">
+                                                <img class="imgrod" src="images/rodape/cartao.png" alt="Símbolo Cartão"><p>Cartão de crédito/débito (na loja ou no ato da entrega)</p>
+                                            </li>
+                                            <li class="licont">
+                                                <img class="imgcart" src="images/rodape/bandeiras.png" alt="Símbolo Bandeiras"><br><br>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="tdend">
+                            <div class="divfoot">
+                                    <p class="titlerod end">Endereço</p> 
+                                    <div class="divend"><img class="imgrod" src="images/rodape/loc.png" alt="Símbolo Localização"><a href="https://goo.gl/maps/DvcfRoZmgYFCYH3V7" target="_blank" title="localização"><p>Rua João Pessoa, 1001, Centro - Nilópolis/RJ</p></a></div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+    </body>
+</html>
